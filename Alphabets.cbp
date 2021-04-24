@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Alphabets" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Alphabets" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Alphabets" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="include/a.h" />
+		<Unit filename="include/b.h" />
+		<Unit filename="include/c.h" />
+		<Unit filename="include/d.h" />
+		<Unit filename="include/e.h" />
+		<Unit filename="include/essentials.h" />
+		<Unit filename="include/f.h" />
+		<Unit filename="include/g.h" />
+		<Unit filename="include/h.h" />
+		<Unit filename="include/i.h" />
+		<Unit filename="include/j.h" />
+		<Unit filename="include/k.h" />
+		<Unit filename="include/l.h" />
+		<Unit filename="include/m.h" />
+		<Unit filename="include/n.h" />
+		<Unit filename="include/o.h" />
+		<Unit filename="include/p.h" />
+		<Unit filename="include/q.h" />
+		<Unit filename="include/r.h" />
+		<Unit filename="include/s.h" />
+		<Unit filename="include/t.h" />
+		<Unit filename="include/u.h" />
+		<Unit filename="include/v.h" />
+		<Unit filename="include/w.h" />
+		<Unit filename="include/x.h" />
+		<Unit filename="include/y.h" />
+		<Unit filename="include/z.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
